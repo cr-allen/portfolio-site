@@ -1,5 +1,5 @@
 /**begin navbar styling**/
-.navbar-default{
+navbar-default{
   background-color: #FF8800;
 }
 
@@ -26,6 +26,10 @@ navbar-right{
 h2 span  {
 
  }
+.hire{
+   display: flex;
+   justify-content: flex-end;
+ }
  /**end hero**/
  /**begin social media**/
 .socmed{
@@ -44,3 +48,7 @@ h2 span  {
   color: #4078c0;
 }
 /**end social media**/
+/** begin samples**/
+.samples-title{
+text-align: center;}
+/** end samples**/
