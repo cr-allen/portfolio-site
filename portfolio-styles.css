@@ -1,28 +1,18 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**begin navbar styling**/
+.navbar-default{
+  background-color: #FF8800;
+}
 
 
 navbar-right{
   display: flex;
   justify-content: flex-end;
 }
+.padding{
+  padding-right: 30px;
+}
 
-/**beging hero**/
+/**begin hero**/
 .hero{
   width: 100%;
 }
@@ -33,12 +23,8 @@ navbar-right{
    left: 0;
    width: 100%;
 }
-.intro overlay  {
-   color: white;
-   font: bold 24px/45px Helvetica, Sans-Serif;
-   letter-spacing: -1px;
-   background: rgb(0, 0, 0);
-   padding: 10px;
+h2 span  {
+
  }
  /**end hero**/
  /**begin social media**/
@@ -46,3 +32,15 @@ navbar-right{
   display: flex;
   justify-content: center;
 }
+.facebook{
+  color: RGB: 59, 89, 152;
+}
+
+.linkedin{
+  color: #0077B5;
+}
+
+.git{
+  color: #4078c0;
+}
+/**end social media**/
