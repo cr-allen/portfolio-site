@@ -1,6 +1,9 @@
 /**begin navbar styling**/
 navbar-default{
-  background-color: #FF8800;
+  color: #5EBA66;
+}
+navbar{
+  color: #5EBA66;
 }
 navbar-right{
   display: flex;
@@ -15,12 +18,13 @@ navbar-right{
 }
 h2 {
   position: absolute;
-  left: 100px;
-  top: 180px;
-  right: 50px;
+  left: 300px;
+  top: 150px;
+  right: 80px;
   z-index: 2;
   font-family: 'Slabo 27px', serif;
  }
+
 .hire{
    display: flex;
    justify-content: flex-end;
