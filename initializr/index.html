@@ -72,33 +72,37 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-    <!--end nav bar-->
-    <!--begin hero stuff-->
-      <div class="col-md-12">
-        <img class="img-responsive hero" src="pics/mountains.jpg" alt="">
-          <h2>
-            My name is Catherine Allen and I'm a developer, designer specializing in accessibility, and [x] in Fresno, California. My skills include HTML5, CSS, and responsive, material design.
-          </h2>
-          <button class="hire">
-            <a href="">Hire me!</a>
-          </button>
-      </div>
-      <div class="socmed" align="center">
-          <i class="fa fa-facebook-official fa-4x facebook" aria-hidden="true"></i>
-          <i class="fa fa-linkedin-square fa-4x linkedin" aria-hidden="true"></i>
-          <i class="fa fa-github-square fa-4x git" aria-hidden="true"></i>
-      </div>
-      <div class="samples">
-        <h3 class="samples-title">samples</h3>
-          <div class="sample1">
+  <!--end nav bar-->
+  <!--begin hero stuff-->
+    <div class="col-md-12">
+      <img class="img-responsive hero" src="pics/mountains.jpg" alt="">
+        <h2>
+          My name is Catherine Allen and I'm a developer, designer specializing in accessibility, and [x] in Fresno, California. My skills include HTML5, CSS, and responsive, material design.
+        </h2>
+        <button id="popup" onclick="div_show()" class="hire">
+          <a href="">Hire me!</a>
+        </button>
+    </div>
+    <div class="socmed" align="center">
+        <i class="fa fa-facebook-official fa-4x facebook" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square fa-4x linkedin" aria-hidden="true"></i>
+        <i class="fa fa-github-square fa-4x git" aria-hidden="true"></i>
+    </div>
+    <div class="samples">
+      <h3 class="samples-title">samples</h3>
+        <div class="sample1">
 
-          </div>
-          <div class="sample2">
+        </div>
+        <div class="sample2">
 
-          </div>
-          <div class="sample3">
+        </div>
+        <div class="sample3">
 
-          </div>
-      </div>
-      </body>
-    </html>
+        </div>
+    </div>
+    <script>//Function To Display Popup
+      function div_show() {
+      document.getElementById('abc').style.display = "block";
+      }</script>
+  </body>
+</html>
