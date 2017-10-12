@@ -21,20 +21,18 @@
 <body>
   <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">[logo]<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Samples</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">[logo]<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Samples</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
     </nav>
 
     <!--end nav bar-->
@@ -42,7 +40,7 @@
       <div class="col-md-12">
         <img class="img-responsive hero" src="pics/poppy.png" alt="a closeup of a backlit orange california">
           <h2>
-            My name is Catherine Allen and I'm a developer, designer, and photographer in Fresno, California. My skills include HTML5, CSS, and responsive, material design.
+            My name is Catherine Allen and I'm a developer, designer, and photographer in Fresno, California.
           </h2>
           <button class="hire">
             <a href="">Hire me!</a>
@@ -57,17 +55,22 @@
       </div>
       <!-- end socmed -->
       <!-- start samples -->
-      <div class="samples">
+      <div class="samples container-fluid">
         <h3 class="samples-title">samples</h3>
           <div class="sample1">
-            <img src="pics/kgofsugar.png" alt="screenshot of a cooking blog titled a KG of Sugar. Two posts are visible, each titled 'spicy smoked stew' and 'smoked bird's eye hot sauce'"">
+            <img class="kgof col-md-8" src="pics/kgofsugar.png" alt="screenshot of a cooking blog titled a KG of Sugar. Two posts are visible, each titled 'spicy smoked stew' and 'smoked bird's eye hot sauce'">
+              <div>
+                  <p class="sample-text col-md-4">A Word Press blog devoted to cooking, <a href="https://www.kgofsugar.wordpress.com">A KG of Sugar</a></p>
+                </div>
           </div>
           <div class="sample2">
-
+            <img src="" alt="" class="col-md-8">
+            <p class="sample-text col-md-4"></p>
           </div>
           <div class="sample3">
-
+            <img src="" alt="" class="col-md-8">
+            <p class="sample-text col-md-4"></p>
           </div>
-      </div>
+      </div> //**sample cont-fluid closer **//
       </body>
     </html>

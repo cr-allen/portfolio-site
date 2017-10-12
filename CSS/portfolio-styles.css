@@ -5,12 +5,15 @@
 
 .dropdown-menu:li {
     text-align: left;
-    background-color:
 }
-
+.caret{
+  color: #f1b600;
+}
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
+    border-color: #f1b600;
+    font-family: 'Slabo 14px', serif;
  }
 
 /**begin hero**/
@@ -25,7 +28,7 @@ h2 {
   z-index: 2;
   font-family: 'Slabo 27px', serif;
   color: white;
-  text-shadow: 3px 4px 5px black;
+  text-shadow: 3px 4px 5px light grey;
  }
 
 .hire{
@@ -68,5 +71,14 @@ h2 {
 /** begin samples**/
 .samples-title{
   text-align: center;
+}
+.kgof{
+
+}
+p{
+  font-family: 'Source Sans Pro',
+}
+.sample-text{
+  float: right;
 }
 /** end samples**/
