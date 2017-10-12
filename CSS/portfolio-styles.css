@@ -76,7 +76,7 @@ h2 {
 
 }
 p{
-  font-family: 'Source Sans Pro',
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .sample-text{
   float: right;
