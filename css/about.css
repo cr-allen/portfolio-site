@@ -29,7 +29,9 @@ button{
   border-radius: 6px;
   padding: 10px;
   text-decoration: none;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0
+  box-shadow: 0 8px 16px 0 #333333, 0 6px 20px 0;
+
+}
 .header-text{
   font-family: 'Slabo 14px', serif;
   color: #002d00;

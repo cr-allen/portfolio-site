@@ -1,0 +1,26 @@
+.header-text{
+  font-family: 'Slabo 27px', serif;
+}
+.text{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.socmed{
+  display: flex;
+  justify-content: center;
+  padding-left: 1px;
+  padding-top: 10px;
+}
+.facebook{
+  color: RGB: 59, 89, 152;
+  padding-right: 5px;
+}
+.linkedin{
+  color: #0077B5;
+  padding-right: 5px;
+}
+.git{
+  color: #4078c0;
+}
+.contact-form{
+
+}
