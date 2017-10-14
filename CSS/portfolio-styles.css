@@ -23,12 +23,12 @@
 h2 {
   position: absolute;
   left: 300px;
-  top: 350px;
+  top: 300px;
   right: 200px;
   z-index: 2;
   font-family: 'Slabo 27px', serif;
   color: white;
-  text-shadow: 3px 4px 5px light grey;
+  text-shadow: 3px 4px 5px #333333;
  }
 
 .hire{
@@ -37,7 +37,7 @@ h2 {
    z-index: 1;
    position: absolute;
     left: 900px;
-    top: 500px;
+    top: 400px;
  }
  button{
    background-color: #f1b600;
@@ -71,6 +71,8 @@ h2 {
 /** begin samples**/
 .samples-title{
   text-align: center;
+  color: #002D00;
+
 }
 .kgof{
 

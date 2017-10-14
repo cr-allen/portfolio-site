@@ -20,4 +20,18 @@
 /**begin hero**/
 .text{
   font-family: 'Source Sans Pro', sans-serif;
+  color: #002D00;
+}
+button{
+  background-color: #f1b600;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  text-decoration: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 0 auto;
+}
+.header-text{
+  font-family: 'Slabo 14px', serif;
 }
