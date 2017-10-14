@@ -22,7 +22,7 @@
 }
 h2 {
   position: absolute;
-  left: 300px;
+  left: 400px;
   top: 300px;
   right: 200px;
   z-index: 2;
@@ -72,7 +72,7 @@ h2 {
 .samples-title{
   text-align: center;
   color: #002D00;
-
+  font-family: 'Slabo 27px', serif;
 }
 .kgof{
 
