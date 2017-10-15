@@ -1,0 +1,29 @@
+/**begin navbar styling**/
+.navbar-default {
+  background: ;
+}
+
+.dropdown-menu:li {
+    text-align: left;
+}
+.caret{
+  color: #f1b600;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    border-color: #f1b600;
+    font-family: 'Slabo 14px', serif;
+ }
+/*end navbar styling*/
+/*begin samples styling*/
+h2{
+  font-family: 'Slabo 27px', serif;
+}
+.text{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.row{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
