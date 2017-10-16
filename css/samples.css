@@ -16,6 +16,9 @@
  }
 /*end navbar styling*/
 /*begin samples styling*/
+.space{
+  height: 30px;
+}
 h2{
   font-family: 'Slabo 27px', serif;
 }

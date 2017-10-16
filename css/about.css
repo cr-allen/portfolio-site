@@ -20,11 +20,11 @@
 /**begin hero**/
 .hero{
   padding-top: 30px;
-  height: 80%;
+z-index: -1;;
 }
 .text{
   font-family: 'Source Sans Pro', sans-serif;
-  color: #002D00;
+  z-index: 1;
 }
 button{
   background-color: #f1b600;
@@ -33,11 +33,11 @@ button{
   border-radius: 6px;
   padding: 10px;
   text-decoration: none;
-  box-shadow: 0 8px 16px 0 #333333, 0 6px 20px 0;
 
 }
 .header-text{
   font-family: 'Slabo 14px', serif;
   color: #002d00;
   padding: 1px;
+  z-index: 2;
 }
