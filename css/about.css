@@ -18,6 +18,10 @@
  }
 
 /**begin hero**/
+.hero{
+  padding-top: 30px;
+  height: 80%;
+}
 .text{
   font-family: 'Source Sans Pro', sans-serif;
   color: #002D00;
