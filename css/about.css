@@ -20,11 +20,9 @@
 /**begin hero**/
 .hero{
   padding-top: 30px;
-z-index: -1;;
 }
 .text{
   font-family: 'Source Sans Pro', sans-serif;
-  z-index: 1;
 }
 button{
   background-color: #f1b600;

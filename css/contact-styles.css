@@ -19,13 +19,9 @@
 /*begin body*/
 .header-text{
   font-family: 'Slabo 27px', serif;
-  z-index: 1;
-  position: absolute;
 }
 .text{
   font-family: 'Source Sans Pro', sans-serif;
-  z-index: 2;
-  position: absolute;
 }
 .socmed{
   display: flex;
