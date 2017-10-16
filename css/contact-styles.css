@@ -1,6 +1,6 @@
 /**begin navbar styling**/
-.navbar-default {
-  background: ;
+.navbar {
+  border-bottom: 1px #f1b600;
 }
 
 .dropdown-menu:li {
@@ -40,4 +40,10 @@
 .git{
   color: #4078c0;
 }
-.
+.design{
+  text-align: right;
+}
+.love{
+  display: flex;
+  max-resolution: 0;
+}
