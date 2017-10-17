@@ -23,11 +23,9 @@
 .bio{
   padding-top: 20px;
 }
-.bio h2{
-  padding-left: 16px;
-}
 .text{
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
 }
 button{
   background-color: #f1b600;
@@ -43,4 +41,13 @@ button{
   color: #002d00;
   padding: 1px;
   z-index: 2;
+}
+.love {
+  padding-right: 200  px;
+}
+.hire{
+  padding-left: 80vw;
+}
+.space {
+  height: 30px;
 }
