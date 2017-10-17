@@ -10,12 +10,12 @@
   color: #f1b600;
 }
 .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-    border-color: #f1b600;
-    font-family: 'Slabo 14px', serif;
- }
-
+  display: block;
+  margin-top: 0;
+  border-color: #f1b600;
+  font-family: 'Slabo 14px', serif;\
+  color: #273012;
+}
 /**begin hero**/
 .hero{
   background: url("../pics/poppy.png");
@@ -50,6 +50,7 @@ h2 {
    padding: 10px;
    text-decoration: none;
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   color: #273012;
  }
  /**end hero**/
  /**begin social media**/
@@ -79,6 +80,7 @@ h2 {
   font-weight: bolder;
   font-size: 45px;
   text-transform: lowercase;
+  color: #273012;
 }
 .sample{
   padding-top: 20px;
@@ -89,11 +91,13 @@ h2 {
 }
 p{
   font-family: 'Source Sans Pro', sans-serif;
+  color: #273012;
 }
 .sample-text{
   /*float: right;*/
   font-size: 30px;
   padding: 9% 6%;
+  color: #273012;
 }
 /** end samples**/
 
