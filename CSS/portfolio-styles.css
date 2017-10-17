@@ -18,18 +18,20 @@
 
 /**begin hero**/
 .hero{
-  width: 100%;
-  padding-top: 20px; 
+  background: url("../pics/poppy.png");
+  background-size: cover;
+  position: relative;
+  height: 70vh;
 }
 h2 {
-  position: absolute;
-  left: 400px;
-  top: 300px;
-  right: 200px;
+  position: relative;
   z-index: 2;
   font-family: 'Slabo 27px', serif;
   color: white;
   text-shadow: 3px 4px 5px #333333;
+  margin: 0 auto;
+  margin-top: 24%;
+  padding: 0 20%;
  }
 
 .hire{
@@ -74,6 +76,9 @@ h2 {
   text-align: center;
   color: #002D00;
   font-family: 'Slabo 27px', serif;
+  font-weight: bolder;
+  font-size: 59px;
+  text-transform: uppercase;
 }
 .sample{
   padding-top: 20px;
@@ -89,6 +94,16 @@ p{
   font-family: 'Source Sans Pro', sans-serif;
 }
 .sample-text{
-  float: right;
+  /*float: right;*/
+  font-size: 30px;
+  padding: 9% 6%;
 }
 /** end samples**/
+
+.folio-1, .folio-2, .folio-3 {
+  height: 350px;
+}
+
+.folio-1 img, .folio-2 img, .folio-3 img {
+  height: 100%;
+}
