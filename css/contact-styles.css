@@ -17,6 +17,9 @@
  }
 /*end nabvar*/
 /*begin body*/
+.space{
+  height: 40px;
+}
 .header-text{
   font-family: 'Slabo 27px', serif;
 }
@@ -42,8 +45,4 @@
 }
 .design{
   text-align: right;
-}
-.love{
-  display: flex;
-  max-resolution: 0;
 }

@@ -11,15 +11,20 @@
   color: #f1b600;
 }
 .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-    border-color: #f1b600;
-    font-family: 'Slabo 14px', serif;
+  display: block;
+  margin-top: 0;
+  border-color: #f1b600;
+  font-family: 'Slabo 14px', serif;
  }
-
 /**begin hero**/
 .hero{
   padding-top: 30px;
+}
+.bio{
+  padding-top: 20px;
+}
+.bio h2{
+  padding-left: 16px;
 }
 .text{
   font-family: 'Source Sans Pro', sans-serif;

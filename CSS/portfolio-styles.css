@@ -4,7 +4,7 @@
 }
 
 .dropdown-menu:li {
-    text-align: left;
+  text-align: left;
 }
 .caret{
   color: #f1b600;
@@ -30,7 +30,7 @@ h2 {
   color: white;
   text-shadow: 3px 4px 5px #333333;
   margin: 0 auto;
-  margin-top: 24%;
+  margin-top: 22%;
   padding: 0 20%;
  }
 
@@ -39,8 +39,8 @@ h2 {
    justify-content: flex-end;
    z-index: 1;
    position: absolute;
-    left: 900px;
-    top: 400px;
+    left: 775px;
+    top: 325px;
  }
  button{
    background-color: #f1b600;
@@ -60,7 +60,7 @@ h2 {
   padding-top: 10px;
 }
 .facebook{
-  color: RGB: 59, 89, 152;
+  color: #3b5998;
   padding-right: 5px;
 }
 .linkedin{
@@ -68,7 +68,7 @@ h2 {
   padding-right: 5px;
 }
 .git{
-  color: #4078c0;
+  color: black;
 }
 /**end social media**/
 /** begin samples**/
@@ -77,8 +77,8 @@ h2 {
   color: #002D00;
   font-family: 'Slabo 27px', serif;
   font-weight: bolder;
-  font-size: 59px;
-  text-transform: uppercase;
+  font-size: 45px;
+  text-transform: lowercase;
 }
 .sample{
   padding-top: 20px;
@@ -86,9 +86,6 @@ h2 {
 .sample2{
   padding-top: 20px;
   padding-bottom: 20px;
-}
-.kgof{
-
 }
 p{
   font-family: 'Source Sans Pro', sans-serif;
@@ -100,9 +97,9 @@ p{
 }
 /** end samples**/
 
-.folio-1, .folio-2, .folio-3 {
+/*.folio-1, .folio-2, .folio-3 {
   height: 350px;
-}
+}*/
 
 .folio-1 img, .folio-2 img, .folio-3 img {
   height: 100%;
