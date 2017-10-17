@@ -21,12 +21,17 @@
 }
 h2{
   font-family: 'Slabo 27px', serif;
+  color: #273012;
 }
 .text{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
+  color: #273012;
 }
 .row{
   padding-top: 15px;
   padding-bottom: 15px;
+}
+p {
+  border-color: #273012;
 }

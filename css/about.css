@@ -3,9 +3,8 @@
 .navbar-default {
   background: ;
 }
-
 .dropdown-menu:li {
-    text-align: left;
+  text-align: left;
 }
 .caret{
   color: #f1b600;
@@ -15,7 +14,7 @@
   margin-top: 0;
   border-color: #f1b600;
   font-family: 'Slabo 14px', serif;
- }
+}
 /**begin hero**/
 .hero{
   padding-top: 30px;
@@ -26,6 +25,7 @@
 .text{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
+  color: #273012;
 }
 button{
   background-color: #f1b600;
@@ -34,11 +34,11 @@ button{
   border-radius: 6px;
   padding: 10px;
   text-decoration: none;
-
+  color: #273012;
 }
 .header-text{
   font-family: 'Slabo 14px', serif;
-  color: #002d00;
+  color: #273012;
   padding: 1px;
   z-index: 2;
 }
@@ -47,6 +47,7 @@ button{
 }
 .hire{
   padding-left: 80vw;
+  padding-top: 20px;
 }
 .space {
   height: 30px;
